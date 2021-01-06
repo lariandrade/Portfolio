@@ -16,7 +16,7 @@ a {
     color: #000000;
 }
 
-.container-header {
+.container-main {
     margin-top: 90px;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ a {
     margin-bottom: 40px;
 }
 
-.content-header {
+.content-main {
     background-color: #78c0e0;
     border-radius: 25px;
     width: 450px;
@@ -45,7 +45,7 @@ a {
     cursor: pointer;
 }
 
-.content-header:hover {
+.content-main:hover {
     background-color: #449dd1;
 }
 
@@ -71,12 +71,11 @@ i {
         height: 230px;     
     }
 
-    .content-header {
-       
+    .content-main {
         width: 400px;
         height: 80px;
         font-size: 25px;
-
+        margin-bottom: 20px;
     }
 }
 
@@ -86,9 +85,10 @@ i {
         height: 200px;     
     }
 
-    .content-header {
+    .content-main {
         width: 380px;
         height: 80px;
+        margin-bottom: 20px;
     }
 }
 
