@@ -34,13 +34,12 @@ a {
 .content-header {
     background-color: #78c0e0;
     border-radius: 25px;
-    width: 500px;
-    height: 120px;
+    width: 450px;
+    height: 100px;
     margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-family: 'Staatliches', cursive;
     font-size: 30px;
     cursor: pointer;
@@ -75,7 +74,7 @@ i {
     .content-header {
        
         width: 400px;
-        height: 120px;
+        height: 80px;
         font-size: 25px;
 
     }
@@ -88,7 +87,6 @@ i {
     }
 
     .content-header {
-       
         width: 380px;
         height: 80px;
     }
