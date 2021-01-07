@@ -2,7 +2,7 @@ const projeto = document.querySelector(".projetos")
 const linkedin = document.querySelector(".linkedin")
 
 projeto.addEventListener("click", function() {
-  window.open('paginas/projetos.html')
+  window.open('https://github.com/lariandrade')
   }); 
 
 linkedin.addEventListener("click", function() {
