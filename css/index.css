@@ -37,11 +37,6 @@ h1 {
     }
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
 .container-main {
     margin-top: 90px;
     display: flex;
