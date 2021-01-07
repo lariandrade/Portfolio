@@ -17,6 +17,7 @@ body {
     height: 80px;
     display: flex;
     justify-content: center;
+
 }
 h1 {
     color: #ffffff;
@@ -24,6 +25,7 @@ h1 {
     animation: typing 2s steps(30) 1s normal both;
     white-space: nowrap;
     overflow: hidden;
+    text-align: center;
 }
 
 @keyframes typing {
@@ -92,23 +94,19 @@ i {
 
 @media (max-width: 600px) {
     .content-main {
-        width: 300px;
+        width: 280px;
         height: 80px;
         font-size: 25px;
         margin-bottom: 20px;
     }
     
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 270px;
-        }
+    .animation {
+        width: 320px;
     }
+
     h1 {
         font-size: 20px;
-
+        margin-bottom: 10px;
     }
 
 }
